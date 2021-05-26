@@ -8,10 +8,7 @@ import java.io.Serializable;
 
 @Slf4j
 @Data
-public class Location implements Serializable {
+public class Billing implements Serializable {
 
-    private String street;
-    private String city;
-    private String state;
-    private String postcode;
+    private Card card;
 }
