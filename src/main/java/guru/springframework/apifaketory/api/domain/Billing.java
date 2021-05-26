@@ -1,4 +1,3 @@
-
 package guru.springframework.apifaketory.api.domain;
 
 import lombok.Data;
@@ -9,6 +8,5 @@ import java.io.Serializable;
 @Slf4j
 @Data
 public class Billing implements Serializable {
-
     private Card card;
 }

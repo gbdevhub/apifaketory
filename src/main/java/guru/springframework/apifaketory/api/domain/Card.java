@@ -1,4 +1,3 @@
-
 package guru.springframework.apifaketory.api.domain;
 
 import lombok.Data;
@@ -9,7 +8,6 @@ import java.io.Serializable;
 @Slf4j
 @Data
 public class Card  implements Serializable {
-
     private String type;
     private String number;
     private ExpirationDate expirationDate;

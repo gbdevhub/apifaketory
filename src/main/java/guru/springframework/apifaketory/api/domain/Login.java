@@ -1,4 +1,3 @@
-
 package guru.springframework.apifaketory.api.domain;
 
 import lombok.Data;
@@ -9,7 +8,6 @@ import java.io.Serializable;
 @Slf4j
 @Data
 public class Login implements Serializable {
-
     private String username;
     private String password;
     private String md5;
